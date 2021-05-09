@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {Link} from "react-router-dom";
-import Home from "./admin_home";
+///import Home from "./admin_home";
 
 
 class Navigation extends Component{
@@ -41,9 +41,7 @@ class Navigation extends Component{
           </nav>
           <br/>
           <br/>
-          <div className='col'>
-            <Home/>
-          </div>
+          
           <div class="footer" style = {{position: 'fixed'}}  style = {{width: "40rem"}} 
            style ={{backgroundColor: 'gray'}} >
              <p>Footer</p>
