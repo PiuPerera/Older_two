@@ -30,7 +30,7 @@ const pizzaSchema = new moongose.Schema({
         required: true
     }
 });
-
+ 
 const Pizza = moongose.model("PizzaHub", pizzaSchema);
 
 module.exports = Pizza;
