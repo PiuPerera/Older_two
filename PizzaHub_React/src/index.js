@@ -11,8 +11,8 @@ import selectPizza from "./components/selectPizza";
 ReactDOM.render(
     <BrowserRouter>
         <Navigation/>
-        <Route path="/pizzahub" component={home}/>
-        <Route exact path="/pizzahub/:id" component={selectPizza}/>
+        {/* <Route path="/pizzahub" component={home}/> */}
+        <Route exact path="/pizzahub" component={selectPizza}/>
     </BrowserRouter>
 ,document.getElementById("root"))
 //ReactDOM.render(<ViewItem/>,document.getElementById("root"))
