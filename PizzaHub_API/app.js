@@ -5,6 +5,7 @@ const customeMiddleware_01 = require("./middlewear/customeMiddleware_01");
 const customeMiddleware_02 = require("./middlewear/customeMiddleware_02");
 const pizzas = require("./routes/pizzas");
 const home = require("./routes/home");
+const Pizza = require("./routes/adminpizza");
 const app = express();
 const PORT = 5000;
 
@@ -19,6 +20,7 @@ app.use(customeMiddleware_01);
 app.use(customeMiddleware_02);
 app.use("/", home);
 app.use("/api/pizzahub/products",pizzas);
+app.use("/api/adminpizza",Pizza);
 
 
 
