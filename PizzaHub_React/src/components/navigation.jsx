@@ -27,6 +27,9 @@ class Navigation extends Component{
                 <li className="nav-item ">
                   <a to="#" className="nav-link"  id="navbarDropdown"> ㅤContact Us ㅤ ㅤ</a>
                 </li>
+                <li className="nav-item ">
+                  <a to="#" className="nav-link"  id="navbarDropdown"> ㅤAdmin ㅤ ㅤ</a>
+                </li>
               </ul>
               <form className="form-inline my-2 my-lg-4">
                 <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
